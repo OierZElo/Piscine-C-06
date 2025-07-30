@@ -6,7 +6,7 @@
 /*   By: ozugazag <ozugazag@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/25 15:05:05 by ozugazag          #+#    #+#             */
-/*   Updated: 2025/07/27 11:45:18 by ozugazag         ###   ########.fr       */
+/*   Updated: 2025/07/30 10:49:45 by ozugazag         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,7 @@ int	ft_strcmp(char *s1, char *s2)
 	}
 	return ((unsigned char)*s1 - (unsigned char)*s2);
 }
+
 void	swap(char **a, char **b)
 {
 	char	*temp;
